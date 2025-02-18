@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Akomolafe Abodunrin Isaac's Portfolio</title>
     <style>
         body {
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
-            background-color:yellowgreen;
-            margin: 30;
-            padding: 60;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background: url('Barca.jpg') no-repeat center center fixed; /* Ensure the image path is correct */
+            background-size: cover; /* Ensure the background covers the entire page */
+            background-color: black; /* Added background color */
+            margin: 30px;
+            padding: 60px;
             text-align: center;
+            color: white; /* Ensure text is visible on black background */
         }
         .container {
             width: 100%;
@@ -19,21 +21,20 @@
             overflow: hidden;
         }
         .profile-pic {
-            border-radius: 100%;
+            border-radius: 50%;
             width: 100px;
-            height: 150px;
+            height: 100px; /* Adjusted height to match width */
         }
         h1 {
-            color:red#333;
+            color: red;
         }
         .social-links {
-            list-style: square;
+            list-style: none; /* Changed to none for better appearance */
             padding: 0;
-
         }
         .social-links li {
             display: inline;
-            margin: 0 100px;
+            margin: 0 10px;
         }
         .social-links a {
             text-decoration: none;
@@ -44,12 +45,13 @@
 </head>
 <body>
     <div class="container">
-        <img src="myself.jpg" class="profile-pic">
+        <img src="myself.jpg" class="profile-pic" alt="Profile Picture">
         <h1>Akomolafe Abodunrin Isaac</h1>
         <p>Welcome to my portfolio. Connect with me on social media:</p>
         <ul class="social-links">
-            <li><a href="https://x.com/czar7a?s=11&t=7QcnQLVMVL_c5le_PvowQA" target="_parent"><img src="twitter.jpeg" alt="x"></a></li> 
-            <li><a href="https://github.com/Czar7a." target="_parent"><img src="github.png" alt="Github"></a></li>        </ul>
+            <li><a href="https://x.com/czar7a?s=11&t=7QcnQLVMVL_c5le_PvowQA" target="_parent"><img src="twitter.jpeg" alt="Twitter" style="width: 50px;"></a></li> <!-- Added width style -->
+            <li><a href="https://github.com/Czar7a" target="_parent"><img src="github.png" alt="GitHub" style="width: 50px;"></a></li> <!-- Adjusted width style -->
+        </ul>
     </div>
 </body>
 </html>
